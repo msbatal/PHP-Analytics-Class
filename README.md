@@ -146,7 +146,7 @@ Add your own referrer rules (checked before the built-in ones) with the `sources
 ```php
 $analytics = new SunAnalytics($db, [
     'sources' => [
-        '/(^|\.)sahibinden\.com$/'     => ['sahibinden', 'referral'],
+        '/(^|\.)sunhillint\.com$/'     => ['sunhill', 'referral'],
         '/^newsletter\.example\.com$/' => ['newsletter', 'email']
     ]
 ]);
